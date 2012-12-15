@@ -41,6 +41,8 @@ public class gameMainScript : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+
+		
 		aliens = new Transform[40];
 		for(int i = 0; i < 40; ++i)
 		{
